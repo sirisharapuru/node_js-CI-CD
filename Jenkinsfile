@@ -5,7 +5,7 @@ pipeline {
     stage('git clone'){
       steps{
         script{
-          git branch: 'main', credentialsId: 'git', url: 'https://github.com/syedirfaan6/nodejs-cicd'}}}
+          git branch: 'main', credentialsId: 'git', url: 'https://github.com/sirisharapuru/sample.git'}}}
          
     stage('build image') {
       steps{
